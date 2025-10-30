@@ -1,0 +1,115 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+body {
+  background-color: #f4f4f4;
+}
+
+.container {
+  width: 90%;
+  max-width: 1200px;
+  margin: auto;
+  border: 2px solid #000;
+  border-radius: 15px;
+  background-color: white;
+  overflow: hidden;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 15px 25px;
+  border-bottom: 2px solid #000;
+}
+
+.logo {
+  width: 50px;
+  height: 50px;
+  border: 2px solid #000;
+  border-radius: 50%;
+}
+
+.menu a {
+  margin: 0 15px;
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+}
+
+.info {
+  text-align: center;
+  padding: 30px 0;
+  border-bottom: 2px solid #000;
+}
+
+.info h2, .info h3, .info h4 {
+  margin: 5px 0;
+}
+
+.programas {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 30px 0;
+  gap: 20px;
+  border-bottom: 2px solid #000;
+}
+
+.card {
+  width: 200px;
+  height: 100px;
+  border: 2px solid #000;
+  border-radius: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.card:hover {
+  background-color: #e5e5e5;
+  transform: scale(1.05);
+}
+
+.contacto {
+  display: flex;
+  justify-content: center;
+  padding: 40px 0;
+}
+
+form {
+  width: 300px;
+  border: 2px solid #000;
+  border-radius: 15px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+input, textarea {
+  border: 1px solid #000;
+  border-radius: 5px;
+  padding: 8px;
+  width: 100%;
+}
+
+button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  padding: 10px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
