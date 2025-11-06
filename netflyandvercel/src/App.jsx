@@ -7,7 +7,7 @@ function App() {
         <div className="logo"></div>
         <nav className="menu">
           <a href="#">Inicio</a>
-          <a href="#">Programas</a>
+          <a href="#">Programasa</a>
           <a href="#">Contacto</a>
         </nav>
       </header>
