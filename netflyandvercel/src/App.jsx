@@ -13,7 +13,7 @@ function App() {
       </header>
 
       <section className="info">
-        <h2>SERVICIO NACIONAL DE APRENDIZAJE</h2>
+        <h2>SERVICIO NACIONAL DE APRENDIZAJEs</h2>
         <h3>CENTRO DE GESTIÓN DE MERCADOS</h3>
         <h4>BOGOTÁ</h4>
       </section>
